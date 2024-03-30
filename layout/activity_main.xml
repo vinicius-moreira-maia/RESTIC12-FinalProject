@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_scroll_view_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp">
+
+    <LinearLayout
+        android:id="@+id/main_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_title"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="28sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/appetizers_section_title"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <include layout="@layout/appetizers" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/main_dishes_section_title"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <include layout="@layout/main_dishes" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/beverages_section_title"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <include layout="@layout/beverages" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/desserts_section_title"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <include layout="@layout/desserts" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:text="@string/res_title"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/res_price"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/res_button"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</ScrollView>

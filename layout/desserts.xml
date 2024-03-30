@@ -1,0 +1,90 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--sobremesa 1-->
+    <TextView
+        android:id="@+id/dessert_petit_gateau_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="@string/desserts_section_petit_gateau_title"
+        />
+
+    <TextView
+        android:id="@+id/dessert_petit_gateau_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desserts_section_petit_gateau_price"
+       />
+
+    <TextView
+        android:id="@+id/dessert_petit_gateau_prep_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desserts_section_petit_gateau_prep_time"
+        />
+
+    <CheckBox
+        android:id="@+id/dessert_petit_gateau_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_checkbox"
+      />
+
+    <EditText
+        android:id="@+id/dessert_petit_gateau_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:hint="@string/preferences"
+        android:background="#CDCDCD"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_height="0.7dp"
+        android:background="@color/gray" />
+
+    <!--sobremesa 2-->
+    <TextView
+        android:id="@+id/dessert_pacoquita_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textStyle="bold"
+        android:text="@string/desserts_section_pacoquita_title"
+        />
+
+    <TextView
+        android:id="@+id/dessert_pacoquita_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desserts_section_pacoquita_price"
+        />
+
+    <TextView
+        android:id="@+id/dessert_pacoquita_prep_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/desserts_section_pacoquita_prep_time"
+        />
+
+    <CheckBox
+        android:id="@+id/dessert_pacoquita_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_checkbox"
+        />
+
+    <EditText
+        android:id="@+id/dessert_pacoquita_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:hint="@string/preferences"
+        android:background="#CDCDCD"
+        />
+</merge>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">ProjetoFinalRESTIC10</string>
+
+    <string name="main_title">Cardápio Online</string>
+    <string name="add_checkbox">Adicionar</string>
+    <string name="preferences">Digite aqui suas preferências</string>
+
+    <string name="main_dishes_section_title">Pratos Principais</string>
+    <string name="appetizers_section_title">Entradas</string>
+    <string name="desserts_section_title">Sobremesas</string>
+    <string name="beverages_section_title">Bebidas</string>
+
+
+    <!--PRATOS PRINCIPAIS-->
+    <string name="main_dishes_section_peixe_delicia_title">Peixe à Delícia</string>
+    <string name="main_dishes_section_peixe_delicia_price">Preço: R$ 47,90</string>
+    <string name="main_dishes_section_peixe_delicia_prep_time">Tempo de Preparo: 45 minutos</string>
+
+    <string name="main_dishes_section_carne_sol_title">Carne de Sol na Manteiga da Terra</string>
+    <string name="main_dishes_section_carne_sol_price">Preço: R$ 38,50</string>
+    <string name="main_dishes_section_carne_sol_prep_time">Tempo de Preparo: 60 minutos</string>
+    <!--PRATOS PRINCIPAIS-->
+
+
+    <!--SOBREMESAS-->
+    <string name="desserts_section_petit_gateau_title">Petit Gateau</string>
+    <string name="desserts_section_petit_gateau_price">Preço: R$ 15,90</string>
+    <string name="desserts_section_petit_gateau_prep_time">Tempo de Preparo: 15 minutos</string>
+
+    <string name="desserts_section_pacoquita_title">Paçoquita</string>
+    <string name="desserts_section_pacoquita_price">Preço: R$ 1,50</string>
+    <string name="desserts_section_pacoquita_prep_time">Tempo de Preparo: N/A</string>
+    <!--SOBREMESAS-->
+
+
+    <!--ENTRADAS-->
+    <string name="appetizers_soon">Entradas em breve</string>
+    <!--ENTRADAS-->
+
+
+    <!--BEBIDAS-->
+    <string name="beverages_soon">Bebidas em breve</string>
+    <!--BEBIDAS-->
+
+
+    <!--RESULTADO-->
+    <string name="res_title">Preço Total</string>
+    <string name="res_price">0 R$</string>
+    <string name="res_button">Realizar pedido</string>
+    <!--RESULTADO-->
+
+    <!--TOASTS-->
+    <string name="confirmed_order">Seu pedido foi enviado para o balcão do
+restaurante</string>
+    <string name="nothing_checked">Selecione pelo menos um produto</string>
+</resources>

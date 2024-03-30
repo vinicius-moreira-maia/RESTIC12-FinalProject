@@ -1,0 +1,90 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--prato principal 1-->
+    <TextView
+        android:id="@+id/main_dish_peixe_delicia_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:text="@string/main_dishes_section_peixe_delicia_title"
+        />
+
+    <TextView
+        android:id="@+id/main_dish_peixe_delicia_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_dishes_section_peixe_delicia_price"
+        />
+
+    <TextView
+        android:id="@+id/main_dish_peixe_delicia_prep_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_dishes_section_peixe_delicia_prep_time"
+        />
+
+    <CheckBox
+        android:id="@+id/main_dish_peixe_delicia_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_checkbox"
+        />
+
+    <EditText
+        android:id="@+id/main_dish_peixe_delicia_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:hint="@string/preferences"
+        android:background="#CDCDCD"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/gray" />
+
+    <!--prato principal 2-->
+    <TextView
+        android:id="@+id/main_dish_carne_sol_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:text="@string/main_dishes_section_carne_sol_title"
+        />
+
+    <TextView
+        android:id="@+id/main_dish_carne_sol_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_dishes_section_carne_sol_price"
+        />
+
+    <TextView
+        android:id="@+id/main_dish_carne_sol_prep_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_dishes_section_carne_sol_title"
+        />
+
+    <CheckBox
+        android:id="@+id/main_dish_carne_sol_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_checkbox"
+        />
+
+    <EditText
+        android:id="@+id/main_dish_carne_sol_preferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:background="#CDCDCD"
+        android:hint="@string/preferences"
+        />
+</merge>
